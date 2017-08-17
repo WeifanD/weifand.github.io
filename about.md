@@ -4,9 +4,9 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Ehhhh...I know it's not a good question.
+<p>Ehhhh...I know it's not a good question.</p>
 
-My Name is Weifan Dai. You may find me in sites like zhihu.com / quora.com / Weibo.com, so on and so forth. It’s easy to know me. My short name is Weifan or just simply call me Blair, named for one of female chief actress in Gossip Girl drama, quite easy to remember, right?</p>
+<p>My Name is Weifan Dai. You may find me in sites like zhihu.com / quora.com / Weibo.com, so on and so forth. It’s easy to know me. My short name is Weifan or just simply call me Blair, named for one of female chief actress in Gossip Girl drama, quite easy to remember, right?</p>
 
 <p>喜欢visualization的伪技术宅。一点点 geek，一丢丢的执著，就像吃烧烤时多少会撒一点孜然，恰到好处就够。这里是我与颜嵘的知识记录与分享之地，他山之石，可以攻玉，每天记录一点点，快乐多一点。</p>
 
