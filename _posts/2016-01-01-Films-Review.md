@@ -1,11 +1,18 @@
 ---
+title: "春秋之光影 2015"
 layout: post
-title: 春秋之光影 2015
-categories: [blog ]
-tags: [Film, ]
-description:  我的年度最佳影片集
+date: 2016-02-24 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- markdown
+- components
+- extra
+category: blog
+author: jamesfoster
+description: Markdown summary with different options
+# jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
-
 ## 回顾
 
 今年是最近三年阅读量最少的一年，也是看片量锐减的又一年。这是印象，也是想起时自然的表达。
