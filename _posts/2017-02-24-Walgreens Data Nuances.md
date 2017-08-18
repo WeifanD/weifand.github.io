@@ -119,7 +119,7 @@ description: Markdown summary with different options
 
 -	POG_IND vs Subscribed Store Count (and other subscribed measures)
 	-	Based on Store-Item file received weekly from Walgreens.
-	-	# of facings ≥ 1, POG = 1
+	-	of facings ≥ 1, POG = 1
 	-	Subscribed should be favored instead of POG_IND
 	-	POG_IND is kept at a weekly level in RSi8 and is used to calculate the Subscribed measures
 	-	Subscribed Store Count is a daily measure
