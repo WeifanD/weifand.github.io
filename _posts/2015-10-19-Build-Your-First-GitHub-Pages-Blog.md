@@ -1,10 +1,17 @@
 ---
-layout: post  
-title: 打造你的 GitHub Pages 专属博客（小白教程）  
-categories: [blog ]  
-tags: [Tech, ]  
-description: 「快速打造一个可心的独立博客~！」   
+title: "打造你的 GitHub Pages 专属博客"
+layout: post
+date: 2017-08-18 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- Tech
+category: blog
+author: jamesfoster
+description: Markdown summary with different options
+# jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
+
 
 ## Build Your First Jekyll Blog
 
