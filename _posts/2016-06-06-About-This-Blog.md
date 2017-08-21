@@ -1,10 +1,17 @@
 ---
+title: "技术札记-写个创站小结吧"
 layout: post
-title: 技术札记
-categories: [blog ]
-tags: [Mac, ]
-description: 写个创站小结吧～
+date: 2017-01-18 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- Mac
+category: blog
+author: WeifanD
+description: Markdown summary with different options
+jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
+
 
 创站绝对是一个大坑 我当初真有勇气。。 嗯 这个站主要就是 Github+Jekyll+markdown 基本上还是现在能用的比较习惯的模式 
 
