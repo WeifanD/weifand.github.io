@@ -1,7 +1,7 @@
 ---
 title: "Blog with RStudio, R, RMarkdown, Jekyll and Github"
 layout: post
-date: 2017-08-18 22:48
+date: 2017-06-04 22:48
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -9,9 +9,7 @@ tag:
 - Jekyll
 - RStudio
 category: blog
-author: jamesfoster
-description: Markdown summary with different options
-# jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
+author: WeifanD
 ---
  
 一直以来都想构建一个比较完整又自动化的个人博客站。这里有两个关键字，即**完整**和**自动**。怎么说呢，如果我只是一个单纯的文字工作者，写博文用[简书](http://www.jianshu.com/)足够，简洁的排版，你只需负责创作。但是如果又需要代码，可以考虑[CSDN](http://www.csdn.net/)，专注技术博文。看回我的需求，希望代码和文字一体，且代码运行结果能自动显示，写完.Rmd自动转换成.md，图片自动变为Markdown可接受的Link，之后同步上传到github进行安全托管。
