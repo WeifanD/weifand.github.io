@@ -15,9 +15,9 @@ jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.gi
 
 创站绝对是一个大坑 我当初真有勇气。。 嗯 这个站主要就是 Github+Jekyll+markdown 基本上还是现在能用的比较习惯的模式 
 
-## 基本流程
+## 基本流程概述
 
-域名 》修改DNS 》github建个仓库github.io 》local上新建一个主站文件夹 》fock一个template 》clone到local上 》安装ruby和Gem 》安装jekyll 》修改仓库中的域名配置CNAME之类 》在sublime中对local的template进行更替 》jekyll预览 》git三部曲
+域名 -> 修改DNS -> github建个仓库github.io -> local上新建一个主站文件夹 -> fock一个template -> clone到local上 -> 安装ruby和Gem -> 安装jekyll -> 修改仓库中的域名配置CNAME之类 -> 在sublime中对local的template进行更替 -> jekyll预览 -> git三部曲
 
 ## 一些tips
 cd/mkdir/touch
@@ -115,8 +115,6 @@ paginate: 5
 _layouts
 这个目录存放着一些网页模板文件，为网站所有网页提供一个基本模板，这样 每个网页只需要关心自己的内容就好，其它的都由模板决定。
 
-可以看出，这个文件就是所有页面共有的东西，每个页面的具体内容会被填充在 {{ content }} 中，注意这个 content 两边的标记，这是一种叫 liquid 的标记语言。 另外，还有那个 {{ page.title }} ，其中 page 表示引用 default.html的 那个页面，这个页面的 title 值会在 page 相应页面中被设置，例如 下面的 index.html 文件，开头部分就设置了 title值。
-
 index.html
 这是网站的首页，访问 http://username.github.io 时，会指向 http://username.github.io/index.html.
 
@@ -161,7 +159,7 @@ Jekyll 解析整个网站源代码后，会将最终的静态网站源代码放�
 当文章很多时，就需要使用分页功能，在 Jekyll 官网上提供了一种 实现，把相应代码放在 主页上，然后在 _config.yml 中设置 paginate 值就行了。
 
 评论
-评论功能需要使用外挂，我使用的是 DISQUS, 注册 之后，将评论区的一段代码放在你需要使用评论功能的页面上, 然后，通过在页面的 front-matter 部分使用
+评论功能需要使用外挂，我使用的是 DISQUS, 注册之后，将评论区的一段代码放在你需要使用评论功能的页面上, 然后，通过在页面的 front-matter 部分使用
 
 comments: true
 启用评论。此外，如果你 fork 了我的项目，需要修改 `_inclusds/comments.ext`，把里面的 `disqus_shortname ` 修改成你的博客短名，这个在注册的时候会设置。
