@@ -1,9 +1,13 @@
 ---
+title: "R与Database"
 layout: post
-title: R与Database
-categories: [blog ]
-tags: [SQL]
-description: 在R中创建数据库
+date: 2017-05-31 20:48
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- SQL
+category: blog
+author: WeifanD
 ---
 
 ## 数据准备
