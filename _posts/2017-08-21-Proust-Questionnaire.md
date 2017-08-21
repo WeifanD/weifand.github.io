@@ -1,9 +1,15 @@
 ---
+title: "Proust Questionnaire"
 layout: post
-title: 春末的普鲁斯特问卷 
-categories: [blog, ]
-tags: [Life, Talk, ]
-description: 我的答案
+date: 2017-08-21 16:00
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- Life
+- Talk
+- Questionnaire
+category: blog
+author: WeifanD
 ---
 
 ## 关于普鲁斯特问卷
@@ -18,27 +24,27 @@ description: 我的答案
 
 
 
-## 我的普鲁斯特问卷
+## WD的普鲁斯特问卷
 
 1.What is your idea of perfect happiness?
 
-健康 自由 并且不忘初心地生活。
+自由 爱与被爱 理想
 
 2.What is your greatest fear?
 
-失去生活的热忱与对于爱的感知。
+失去与背叛 无所事事
 
 3.What is the trait you most deplore in yourself?
 
-思辨不足。缺少对所处之生活与作为旅途的人生，更深地认知。相比较起来，病痛有时倒也不算什么。
+优柔寡断 顾虑颇多
 
 4.What is the trait you most deplore in others?
 
-冷漠。无论是对于人的隔膜，对于事的不在意，对于观念的疏离还是别的，太多的问题由此而生，由此而恶化。
+桎梏于浮华的事物而止步不前
 
 5.Which living person do you most admire?
 
-那些无论身处顺境逆境都可以保持一贯的自我，给周围的人以关怀和力量的人，都值得我去钦佩。而越是平凡，越加可贵。
+待人平和 处世不惊  
 
 6.What is your greatest extravagance?
 
