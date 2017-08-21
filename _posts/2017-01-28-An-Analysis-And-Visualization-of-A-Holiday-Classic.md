@@ -1,12 +1,14 @@
 ---
+title: "An analysis and visualization of a holiday classic"
 layout: post
-title: 对实习医生格蕾的初步探索"
-description: "An analysis and visualization of a holiday classic."
-output: html_document
-date: 2017-1-28 3:30:00 -0400
-category: r
-tags: [r]
-comments: true
+date: 2017-01-28 20:20
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- Gary's Anatomy
+- Text Mining
+category: blog
+author: WeifanD
 ---
 
 今天是大年初一，是个好日子，耳边传来的是小岳岳的歌声，手下正敲打着键盘，想说一定要把这个小坑tm给填了！！
