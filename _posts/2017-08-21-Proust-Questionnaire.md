@@ -1,5 +1,5 @@
 ---
-title: "Proust Questionnaire"
+title: "Proust Questionnaire-WD"
 layout: post
 date: 2017-08-21 16:00
 image: /assets/images/markdown.jpg
@@ -44,7 +44,7 @@ author: WeifanD
 
 5.Which living person do you most admire?
 
-待人平和 处世不惊  
+Hadley Wickham 终其一生，旨在化繁为简  
 
 6.What is your greatest extravagance?
 
@@ -168,5 +168,3 @@ Leah.
 
 > 在遥远的地方 一切虔诚终必相遇。
 
-
-By *Azeril* 160425
