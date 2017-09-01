@@ -1,5 +1,5 @@
 ---
-title: "Kaggle - 沃尔玛销售预测"
+title: "Kaggle - 沃尔玛销售预测1"
 layout: post
 date: 2017-08-21 16:00
 image: /assets/images/markdown.jpg
