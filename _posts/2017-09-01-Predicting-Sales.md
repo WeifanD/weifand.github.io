@@ -17,7 +17,7 @@ author: WeifanD
 
 原始的数据集是一个标准的 tidy dataset，即以行为 observation 列为 variable， 这里由于涉及到时间，结构相对特殊，是 time-store-department-sales 的 variable-value 结构。
 
-![Alt text](assets/images/1504235354688.png)
+![Alt text](/assets/images/1504235354688.png)
 
 为了使时间成为一个unique key，我们需要对数据结构进行初步调整，其基本的概念是循环每一个部门，构造一个门店*时间的矩阵，相当于形成一系列门店的时间序列。
  
@@ -28,7 +28,7 @@ author: WeifanD
 基于R包forcast的现有时间序列模型，我是用了五种模型，分别应用到做过postprocess的数据集上，其中表现最佳的是。
 
 时间序列模型总体基于不同的时间影响因素以及计算方式形成8种不同的模型，如下图。其中time factor包括trend和seasonality，calculation logic包括A（add）以及M（multiply）。
-![Alt text](assets/images/1504152542610.png)
+![Alt text](/assets/images/1504152542610.png)
 
 对每个模型做简单的模型函数调用，然后合并。上部分代码：
 
