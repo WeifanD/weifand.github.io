@@ -1,10 +1,14 @@
 ---
-layout: post  
-title: Kaggle - 沃尔玛销售预测 
-Date: 2017-09-01
+title: "Kaggle - 沃尔玛销售预测"
+layout: post
+date: 2017-08-21 16:00
+image: /assets/images/markdown.jpg
+headerImage: false
 tags: 
 - kaggle
 - Predicting
+category: blog
+author: WeifanD
 ---
 
 最近小小参与了一下Kaggle2002年的一场比赛，出题方是沃尔玛，题目是对其下45家零售店的销售进行预测。所提供的数据分为两部分，一部分是by store by department by week的销售数据，可以看作是时间序列数据，另一部分是markdown数据，这里可以把它看作影响销售量的特征。最后的评价标准是常用的criteria之一，WMAE，加权均化误差，也就是最后预测值与实际值之间的误差越小越好，WMAE值越小排位越高。
