@@ -23,7 +23,7 @@ description: Markdown summary with different options
 
 **Transaction** 
 数据结构很简单，就是描述了某个客户某天某次在某家公司的某个商店的购买量以及购买金额。
-![Alt text](./1508389968931.png)
+![Alt text](/assets/images/1508389968931.png)
 
 **Offer** 
 数据集显示了此券的商家、使用条件以及折扣力度。
