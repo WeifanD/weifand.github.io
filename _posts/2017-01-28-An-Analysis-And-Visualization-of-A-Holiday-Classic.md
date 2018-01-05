@@ -2,6 +2,8 @@
 title: "An analysis and visualization of a holiday classic"
 layout: post
 date: 2017-01-28 20:20
+image: /assets/images/markdown.jpg
+headerImage: false
 tag:
 - Gary's Anatomy
 - Text Mining

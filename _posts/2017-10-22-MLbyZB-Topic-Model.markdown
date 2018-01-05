@@ -2,6 +2,8 @@
 title: "MLbyZB—Topic Model"
 layout: post
 date: 2017-10-22 10:44
+image: /assets/images/markdown.jpg
+headerImage: false
 tag:
 - topic model
 - LDA

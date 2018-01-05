@@ -2,6 +2,8 @@
 title: 新工具：从可有可无到不可或缺
 layout: post
 date: 2015-12-20
+image: /assets/images/markdown.jpg
+headerImage: false
 tag:
 - Tool
 - Mac

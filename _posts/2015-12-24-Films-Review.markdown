@@ -2,6 +2,8 @@
 title: "春秋之光影 2015"
 layout: post
 date: 2015-12-24 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
 tag:
 - markdown
 - components

@@ -2,6 +2,8 @@
 title: "[Blog] Part1: 技术札记-写个创站小结吧"
 layout: post
 date: 2017-01-18 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
 tag:
 - Blog
 - Mac

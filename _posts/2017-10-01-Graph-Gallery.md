@@ -2,8 +2,8 @@
 title: Graph Gallery
 layout: post
 date: 2017-10-01 11:20
-author: WeifanD
-published: true
+image: /assets/images/markdown.jpg
+headerImage: false
 tag:
 - R
 - Visual

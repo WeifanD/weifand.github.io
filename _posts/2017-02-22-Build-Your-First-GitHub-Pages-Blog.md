@@ -2,6 +2,8 @@
 title: "[Blog] Part2: 打造你的 GitHub Pages 专属博客"
 layout: post
 date: 2017-02-22 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
 tag:
 - Blog
 - GitHub Pages

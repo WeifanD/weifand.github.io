@@ -2,6 +2,8 @@
 title: "Case Study - Predicting Lung Cancer"
 layout: post
 date: 2017-11-01 12:44
+image: /assets/images/markdown.jpg
+headerImage: false
 tag:
 - Cancer
 - CNN

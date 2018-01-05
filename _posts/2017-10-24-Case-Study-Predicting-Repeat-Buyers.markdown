@@ -2,6 +2,8 @@
 title: "Case Study - Predicting Repeat Buyers"
 layout: post
 date: 2017-10-24 11:44
+image: /assets/images/markdown.jpg
+headerImage: false
 tag:
 - Business
 - Vowpal_wabbit

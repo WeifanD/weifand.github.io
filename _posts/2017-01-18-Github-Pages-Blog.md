@@ -2,6 +2,8 @@
 title: "[Blog] Part3: GitHub 博客简明使用指南"
 layout: post
 date: 2017-03-18 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
 tag:
 - Blog
 - mac

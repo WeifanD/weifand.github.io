@@ -2,6 +2,8 @@
 title: "[Blog] Part4: Blog with RStudio, R, RMarkdown, Jekyll and Github"
 layout: post
 date: 2017-06-04 22:48
+image: /assets/images/markdown.jpg
+headerImage: false
 tag:
 - Blog
 - R

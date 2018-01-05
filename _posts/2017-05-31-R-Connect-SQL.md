@@ -2,6 +2,8 @@
 title: "R与Database"
 layout: post
 date: 2017-05-31 20:48
+image: /assets/images/markdown.jpg
+headerImage: false
 tag:
 - SQL
 category: blog

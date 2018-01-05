@@ -2,6 +2,8 @@
 title: 多维度账户体系与密码保护策略
 layout: post
 date: 2015-12-15 16:49
+image: /assets/images/markdown.jpg
+headerImage: false
 tags: 
 - Tech
 - Network
