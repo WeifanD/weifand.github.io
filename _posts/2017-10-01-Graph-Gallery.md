@@ -8,6 +8,8 @@ tag:
 - R
 - Visual
 - ggplot2
+category: blog
+author: WeifanD
 ---
  
 National holiday is coming! Let us have some fun.

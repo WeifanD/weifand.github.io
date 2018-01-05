@@ -5,6 +5,8 @@ date: 2015-12-20
 tag:
 - Tool
 - Mac
+category: blog
+author: WeifanD
 ---
 
 

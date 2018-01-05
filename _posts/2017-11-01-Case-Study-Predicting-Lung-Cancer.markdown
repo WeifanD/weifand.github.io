@@ -5,6 +5,8 @@ date: 2017-11-01 12:44
 tag:
 - Cancer
 - CNN
+category: blog
+author: WeifanD
 ---
 
 ### Problem

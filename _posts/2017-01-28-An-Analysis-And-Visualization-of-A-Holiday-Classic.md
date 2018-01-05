@@ -5,6 +5,8 @@ date: 2017-01-28 20:20
 tag:
 - Gary's Anatomy
 - Text Mining
+category: blog
+author: WeifanD
 ---
 
 今天是大年初一，是个好日子，耳边传来的是小岳岳的歌声，手下正敲打着键盘，想说一定要把这个小坑tm给填了！！

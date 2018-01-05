@@ -5,6 +5,8 @@ date: 2017-10-24 11:44
 tag:
 - Business
 - Vowpal_wabbit
+category: blog
+author: WeifanD
 ---
 
 #### Problem

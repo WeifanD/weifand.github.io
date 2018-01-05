@@ -5,6 +5,8 @@ date: 2017-02-22 22:48
 tag:
 - Blog
 - GitHub Pages
+category: blog
+author: WeifanD
 ---
 
 

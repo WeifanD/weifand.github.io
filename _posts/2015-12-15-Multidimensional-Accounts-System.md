@@ -5,6 +5,8 @@ date: 2015-12-15 16:49
 tags: 
 - Tech
 - Network
+category: blog
+author: WeifanD
 ---
 
 也许在未来，所谓的传承也只是一个账户一个密码的交接而已。

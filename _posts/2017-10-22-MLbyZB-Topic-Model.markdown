@@ -5,6 +5,8 @@ date: 2017-10-22 10:44
 tag:
 - topic model
 - LDA
+category: blog
+author: WeifanD
 ---
 
 ### 词分布和主题分布

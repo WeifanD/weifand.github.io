@@ -1,7 +1,7 @@
 ---
 title: "Case Study - Predicting future sales"
 layout: post
-date: 2017-08-21 16:00
+date: 2017-09-01 16:00
 tags: 
 - kaggle
 - Predicting

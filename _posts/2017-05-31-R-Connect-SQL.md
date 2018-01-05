@@ -4,6 +4,8 @@ layout: post
 date: 2017-05-31 20:48
 tag:
 - SQL
+category: blog
+author: WeifanD
 ---
 
 ## 数据准备

@@ -5,6 +5,8 @@ date: 2017-01-18 22:48
 tag:
 - Blog
 - Mac
+category: blog
+author: WeifanD
 ---
 
 
