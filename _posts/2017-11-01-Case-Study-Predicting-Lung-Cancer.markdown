@@ -147,6 +147,3 @@ https://baike.baidu.com/item/%E8%82%BA%E7%99%8C/428115?fr=aladdin
 https://github.com/WeifanD/kaggle_ndsb2017
 https://zhidao.baidu.com/question/808814252251882052.html
 http://www.infoq.com/cn/articles/resnet-azure-gpu
-
-
->>>>>>> 508c377bb1dc755ba7dbef1d46199cc2a86156dd

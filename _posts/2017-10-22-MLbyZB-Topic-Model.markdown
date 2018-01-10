@@ -181,4 +181,3 @@ Note: 若我们没有prior info知道diri分布的超参数的分布比例情况
 
 ![Alt text](/assets/images/1507617293810.png)
 
->>>>>>> 508c377bb1dc755ba7dbef1d46199cc2a86156dd
