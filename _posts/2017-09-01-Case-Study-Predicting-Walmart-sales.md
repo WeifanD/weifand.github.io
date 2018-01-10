@@ -11,7 +11,7 @@ category: blog
 author: WeifanD
 ---
 
-最近小小参与了一下Kaggle2002年的一场比赛，出题方是沃尔玛，题目是对其下45家零售店的销售进行预测。所提供的数据分为两部分，一部分是by store by department by week的销售数据，可以看作是时间序列数据，另一部分是markdown数据，这里可以把它看作影响销售量的特征。最后的评价标准是常用的criteria之一，WMAE，加权均化误差，也就是最后预测值与实际值之间的误差越小越好，WMAE值越小排位越高。
+最近小小参与了一场比赛，出题方是沃尔玛，题目是对其下45家零售店的销售进行预测。所提供的数据分为两部分，一部分是by store by department by week的销售数据，可以看作是时间序列数据，另一部分是markdown数据，这里可以把它看作影响销售量的特征。最后的评价标准是常用的criteria之一，WMAE，加权均化误差，也就是最后预测值与实际值之间的误差越小越好，WMAE值越小排位越高。
 
 ### 数据处理
 
@@ -56,71 +56,6 @@ stlf.svd <- function(train, test, model.type, n.comp){
     }
     pred <- as.numeric(fc$mean)
     test[, j] <- pred
-  }
-  test
-}
-
-stlf.nn <- function(train, test, method='ets', k, level1, level2){
-  horizon <- nrow(test)
-  tr <- train[, 2:ncol(train)]
-  tr[is.na(tr)] <- 0
-  crl <- cor(tr)
-  tr.scale <- scale(tr)
-  tr.scale[is.na(tr.scale)] <- 0
-  raw.pred <- test[, 2:ncol(test)]
-  for(j in 1:ncol(tr)){
-    s <- ts(tr.scale[, j], frequency=52)
-    if(method == 'ets'){
-      fc <- stlf(s, 
-                 h=horizon, 
-                 s.window=3, 
-                 method='ets',
-                 ic='bic', 
-                 opt.crit='mae')
-    }else if(method == 'arima'){
-      fc <- stlf(s, 
-                 h=horizon, 
-                 s.window=3, 
-                 method='arima',
-                 ic='bic')
-    }
-    raw.pred[, j] <- fc$mean
-  }
-  for(j in 1:ncol(tr)){
-    o <- order(crl[j, ], decreasing=TRUE)
-    score <- sort(crl[j, ], decreasing=TRUE)
-    if(length(o[score >= level1]) > k){
-      top.idx <- o[score >= level1]
-    }else{
-      top.idx <- o[score >= level2]
-      top.idx <- top.idx[1:min(length(top.idx),k)]
-    }
-    top <- raw.pred[, top.idx]
-    if (length(top.idx) > 1){
-      pred <- rowMeans(top)
-    }else{
-      pred <- as.numeric(top)
-    }
-    pred <- pred * attr(tr.scale, 'scaled:scale')[j]
-    pred <- pred + attr(tr.scale, 'scaled:center')[j]
-    test[, j + 1] <- pred
-  }
-  test
-}
-
-fourier.arima <- function(train, test, k){
-  horizon <- nrow(test)
-  for(j in 2:ncol(train)){
-    if(sum(is.na(train[, j])) > nrow(train)/3){
-      test[, j] <- fallback(train[,j], horizon)
-      print(paste('Fallback on store:', names(train)[j]))
-    }else{
-      # fit arima model
-      s <- ts(train[, j], frequency=365/7)
-      model <- auto.arima(s, xreg=fourier(s, k), ic='bic', seasonal=FALSE)
-      fc <- forecast(model, h=horizon, xreg=fourierf(s, k, horizon))
-      test[, j] <- as.numeric(fc$mean)
-    }
   }
   test
 }
