@@ -4,7 +4,7 @@ layout: post
 date: 2017-10-01 11:20
 image: /assets/images/markdown.jpg
 headerImage: false
-tag:
+tags:
 - R
 - Visual
 - ggplot2
