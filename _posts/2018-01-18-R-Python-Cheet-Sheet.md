@@ -1,4 +1,16 @@
-## R-Python速查表
+---
+title: "R-Python速查表"
+layout: post
+date: 2018-01-18 12:00
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- R
+- Python
+category: blog
+author: WeifanD
+---
+
 不定期更新。。。
 
 | R |    Python |
