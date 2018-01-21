@@ -17,7 +17,7 @@
 rmd2md <- function( path_site = getwd(),
                     dir_rmd = "_rmd",
                     dir_md = "_posts",                              
-                    dir_images = "assets/images",
+                    dir_images = "assets/images/",
                     out_ext='.md', 
                     in_ext='.Rmd', 
                     recursive=FALSE) {
@@ -44,13 +44,11 @@ rmd2md <- function( path_site = getwd(),
                    fig.height = 5.25)                     
     
     
-    try(knit(text=content, output=outFile), silent=FALSE)
+    try(knit(text=content, output=outFile, encoding = "UTF-8"), silent=FALSE)
     
     i = i + 1  
       
-   } else {
-         warning(paste("Not processing ", f, " Please set published to 'false' to convert.", sep=' '))
-   }
+   } 
   message(paste0("The number of total processed files is:", i, sep = " "))
 }
 rmd2md()
