@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 <center>
-    <p><img src='http://i2.bvimg.com/627519/b9b1ea9b446a66d7.png'> align="center"></p>
+    <p><img src='http://i2.bvimg.com/627519/b9b1ea9b446a66d7.png'> </p>
 </center>
 
 <p>hey, guys!
@@ -20,7 +20,7 @@ Hopefully, you can find more interesting pieces here. Let me know if you have an
 > Live long and prosper.
 
 <center>
-    <p><img src='http://i2.bvimg.com/627519/85878e3cb74949ad.png'> align="center"></p>
+    <p><img src='http://i2.bvimg.com/627519/85878e3cb74949ad.png'> </p>
 </center>
 
 <p> Here comes my turn. My name is Yanrong and I am highly intrigued in everything on bone, especially on its interaction with immune system. I'd like to share my daily experience on clinical practice and everything in my memory that I want to share now, plus what I imagine beyond. 
