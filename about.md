@@ -8,10 +8,13 @@ layout: page
 
 ![一只快乐的小白牛](http://i4.bvimg.com/627519/a36e5da46574f282.jpg)
 
-<p><img src="http://i4.bvimg.com/627519/a36e5da46574f282.jpg" width = "200" height = "200"
-alt="一只快乐的小白牛" align=center /></p>
+<center>
+    <p><img src="http://i4.bvimg.com/627519/a36e5da46574f282.jpg" width = "200" height = "200" align="center"></p>
+</center>
 
-<p><img src="http://i4.bvimg.com/627519/a36e5da46574f282.jpg" width = "150" height = "150" alt="一只快乐的小白牛" align=center /></p>
+<center>
+    <p><img src="http://i4.bvimg.com/627519/a36e5da46574f282.jpg" width = "150" height = "150" align="center"></p>
+</center>
 
 Hey, guys! I'm Weifan or just simply call me Blair, named for one of female chief actress in Gossip Girl drama, quite easy to remember, right?!
 
@@ -29,9 +32,13 @@ Hopefully, you can find more interesting pieces here. Let me know if you have an
 
 ![一名医学僧](http://i2.bvimg.com/627519/85878e3cb74949ad.png)
 
-<p><img src="http://i2.bvimg.com/627519/85878e3cb74949ad.png" width = "150" height = "150" alt="一只快乐的小白牛" align=center /></p>
+<center>
+    <p><img src="http://i2.bvimg.com/627519/85878e3cb74949ad.png" width = "200" height = "200" align="center"></p>
+</center>
 
-<p><img src="http://i2.bvimg.com/627519/85878e3cb74949ad.png" width = "100" height = "100" alt="一只快乐的小白牛" align=center /></p>
+<center>
+    <p><img src="http://i2.bvimg.com/627519/85878e3cb74949ad.png" width = "150" height = "150" align="center"></p>
+</center>
 
 Here comes my turn. My name is Yanrong and I am highly intrigued in everything on bone, especially on its interaction with immune system. I'd like to share my daily experience on clinical practice and everything in my memory that I want to share now, plus what I imagine beyond.
 
