@@ -8,6 +8,11 @@ layout: page
 
 ![一只快乐的小白牛](http://i4.bvimg.com/627519/a36e5da46574f282.jpg)
 
+<img src="http://i4.bvimg.com/627519/a36e5da46574f282.jpg" width = "200" height = "200"
+alt="一只快乐的小白牛" align=center />
+
+<img src="http://i4.bvimg.com/627519/a36e5da46574f282.jpg" width = "150" height = "150" alt="一只快乐的小白牛" align=center />
+
 Hey, guys! I'm Weifan or just simply call me Blair, named for one of female chief actress in Gossip Girl drama, quite easy to remember, right?!
 
 After graduated from University of Glasgow with a Master degree in Statistics, I've worked as a data analyst since then. In my spare time, as a blogger, I like to write and read other's technical blogs regarding how to be myself better and how to deal with real problems in a more efficient way. As for my sport interest, I could not deny my greatest interest is swimming, which brings me a lot of freedom and health. 
@@ -24,11 +29,18 @@ Hopefully, you can find more interesting pieces here. Let me know if you have an
 
 ![一名医学僧](http://i2.bvimg.com/627519/85878e3cb74949ad.png)
 
+<img src="http://i2.bvimg.com/627519/85878e3cb74949ad.png" width = "150" height = "150" alt="一只快乐的小白牛" align=center />
+
+<img src="http://i2.bvimg.com/627519/85878e3cb74949ad.png" width = "100" height = "100" alt="一只快乐的小白牛" align=center />
+
 Here comes my turn. My name is Yanrong and I am highly intrigued in everything on bone, especially on its interaction with immune system. I'd like to share my daily experience on clinical practice and everything in my memory that I want to share now, plus what I imagine beyond.
 
 记忆，进展，超越。专注，缓慢，持续。
 
->Memory and progress plus beyond.
+> Memory and progress plus beyond.
+
+
+
 
 
 
