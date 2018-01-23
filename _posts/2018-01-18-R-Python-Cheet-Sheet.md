@@ -13,17 +13,19 @@ author: WeifanD
 
 不定期更新。。。
 
-| R |    Python |
-| :-------- | :--------|
-| `data$v1`  | `data.v1`|
-| `data[,v1]`     |  `data[v1]` | 
-| `data %>% str_split`| `data.str.split` | 
-|`str_detect`| `str_contain`|
-|`train_photos$expensive_photos <- train photos %>% filter(business_id %in% expensive_businesses) %>% select(photo_id) %>% as.list()`| `expensive_photos =train_photos[train_photos.business_id.isin(expensive_businesses)].photo_id.tolist()`|
-|`seq`|`np.arrange()`|
-|`n_sample <- lfw_people.images[1] H <-  lfw_people.images[2] W <-  lfw_people.images[3]`|`n_samples, h, w = lfw_people.images.shape`|
-|`cat_dir <- "http:dd" list.files(system.file(package="png")) %>% map_chr(~file.path(cat_dir, .x))`|`[cat_dir + fn for fn in os.listdir(cat_dir)]`|
-|`tally`|`value_count`|
-|`gather()`, `spread`| `melt`|
+|| R |    Python |
+|:-------- | :-------- | :--------|
+|| `data$v1`  | `data.v1`|
+|| `data[,v1]`     |  `data[v1]` | 
+|| `data %>% str_split`| `data.str.split` | 
+||`str_detect`| `str_contain`|
+||`train_photos$expensive_photos <- train photos %>% filter(business_id %in% expensive_businesses) %>% select(photo_id) %>% as.list()`| `expensive_photos =train_photos[train_photos.business_id.isin(expensive_businesses)].photo_id.tolist()`|
+||`seq`|`np.arrange()`|
+||`n_sample <- lfw_people.images[1] H <-  lfw_people.images[2] W <-  lfw_people.images[3]`|`n_samples, h, w = lfw_people.images.shape`|
+||`cat_dir <- "http:dd" list.files(system.file(package="png")) %>% map_chr(~file.path(cat_dir, .x))`|`[cat_dir + fn for fn in os.listdir(cat_dir)]`|
+||`tally`|`value_count`|
+||`gather()`, `spread`| `melt`|
+|字符串连接|`paste0()`, `stringr::str_c()`|`+`|
+|格式化输出|`sprintf("I'm %s. I'm %d years old.", 'raindu', 26)`|`print("I'm %s. I'm %d years old." % ('raindu', 26))`, `"I'm {name}. I'm {age} years old.".format(name = 'raindu', age = 26))`|
 
   
