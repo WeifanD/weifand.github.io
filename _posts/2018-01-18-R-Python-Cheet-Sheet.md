@@ -1,5 +1,5 @@
 ---
-title: "R-Python速查表"
+title: "R-P Cheatsheet"
 layout: post
 date: 2018-01-18 12:00
 image: /assets/images/markdown.jpg
