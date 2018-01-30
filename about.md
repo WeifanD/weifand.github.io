@@ -2,7 +2,7 @@
 title: About
 layout: page
 ---
-## About us
+## About Us
 
 欢迎来到我与颜嵘的知识记录与分享之地，他山之石，可以攻玉，每天记录一点点，快乐多一点。
 
