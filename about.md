@@ -6,7 +6,7 @@ layout: page
 
 ### Weifan Dai
 
-![一只快乐的小白牛](/assets/images/profile.jpg)
+![一只快乐的小白牛](http://yrwf.life/assets/images/profile.jpg)
 
 
 Hey, guys! I'm Weifan or just simply call me Blair, named for one of female chief actress in Gossip Girl drama, quite easy to remember, right?!
@@ -23,7 +23,7 @@ Hopefully, you can find more interesting pieces here. Let me know if you have an
 
 ### Yanrong Cai
 
-![一名医学僧](/assets/images/doctor.png)
+![一名医学僧](http://yrwf.life/assets/images/doctor.PNG)
 
 Here comes my turn. My name is Yanrong and now I am a master student in Tongji University School of Medicine majoring in surgery (orthopedics ). I am highly intrigued in everything on bone, especially on its interaction with immune system. I'd like to share my daily experience on clinical practice and everything in my memory that I want to share now, plus what I imagine beyond.
 
