@@ -14,7 +14,7 @@ picture: assets/images/1884581754.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: http://artiannaswamy.com/build-a-github-blog-part-1
+resume-url: FAQ.md
 
 url: https://weifand.github.io
 # your url: http://USERNAME.github.io
