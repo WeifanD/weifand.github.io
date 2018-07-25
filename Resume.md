@@ -1,8 +1,4 @@
----
-title: Resume
-layout: page
----
-
+### Resume
 #### Project lists
 - 水文（低质文本）甄别
 	- 从数据库获取待识别的新闻资源的信息
