@@ -15,7 +15,7 @@ layout: page
 - [用户行为相似度](https://github.com/WeifanD/fireeye) 
 	- 根据师傅间行为的相似性，自动识别出前一天有刷金币嫌疑的用户团伙
 - [fireeye反作弊数据功能](https://github.com/WeifanD/fireeye)
-	- ![Alt text](./1532481885503.png)
+	- ![Alt text](assets/fireeye.PNG)
 
 - [可疑行为图像自动化识别](https://github.com/WeifanD/Behavior-Classification)
 - 图数据库（关系网络）
