@@ -1,7 +1,7 @@
 ---
 title: "How to install Tensorflow-gpu in Centos7"
 layout: post
-date: 2018--10-18 15:48
+date: 2018-10-18 15:48
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -86,8 +86,7 @@ export PATH="$PATH:/usr/local/cuda/bin"
 source ~/.bashrc
 ```   
 
-安装 Python 环境 (miniconda)
-
+2. 安装 Python 环境 (miniconda)
 ``` bash
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh   
