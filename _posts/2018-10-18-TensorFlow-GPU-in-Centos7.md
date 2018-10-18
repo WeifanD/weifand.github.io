@@ -20,13 +20,13 @@ author: WeifanD
 框架: Tensorflow
 
    
-安装依赖 
+### 安装依赖 
 
 ``` bash
 sudo yum install openjdk-8-jdk git python-dev python3-dev python-numpy python3-numpy build-essential python-pip python3-pip python-virtualenv swig python-wheel libcurl3-dev curl   
 ```
 
-安装 NVIDIA 驱动 和 CUDA
+### 安装 NVIDIA 驱动 和 CUDA
 
 ``` bash
 curl -O http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
@@ -66,7 +66,7 @@ nvidia-smi
 
 ```    
 
-- Install cudnn   
+### Install cudnn   
 
 ``` bash
 tar -zxvf cudnn-9.0-linux-x64-v7.1.solitairetheme8
@@ -76,7 +76,8 @@ sudo chmod a+r /usr/local/cuda/include/cudnn.h
 sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
 ```    
 
-1. 配置环境变量 ~/.bashrc:   
+### 配置环境变量 ~/.bashrc: 
+
 ``` bash
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
@@ -86,7 +87,8 @@ export PATH="$PATH:/usr/local/cuda/bin"
 source ~/.bashrc
 ```   
 
-2. 安装 Python 环境 (miniconda)
+### 安装 Python 环境 (miniconda)
+
 ``` bash
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh   
@@ -108,7 +110,7 @@ yum install -y bzip2
 source ~/.bashrc
 ```   
 
-Create conda env to install tf   
+### Create conda env to install tf   
 
 ``` bash
 conda create -n tensorflow
@@ -116,19 +118,19 @@ conda create -n tensorflow
 # press y a few times 
 ```   
 
-Activate env   
+### Activate env   
 
 ``` bash
 source activate tensorflow   
 ```
 
-安装带 gpu 的 tensorflow 版本
+### 安装带 gpu 的 tensorflow 版本
 
 ``` bash
 pip install tensorflow-gpu -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 ```   
 
-测试安装结果  
+### 测试安装结果  
 
 ``` bash
 # start python shell   
