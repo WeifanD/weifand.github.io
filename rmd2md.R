@@ -20,7 +20,7 @@ rmd2md <- function( path_site = getwd(),
                     #dir_images = "figures",
                     url_images = "figures/",
                     out_ext='.md', 
-                    in_ext='.Rmd', 
+                    in_ext='.Rmd$', 
                     recursive=FALSE) {
   
   require(knitr, quietly=TRUE, warn.conflicts=FALSE)

@@ -2,7 +2,7 @@
 title: "R for functional programming"
 layout: post
 date: 2018-01-15 13:07
-image: /assets/images/markdown.jpg
+image: /assets/images/2018-01-15/markdown.jpg
 headerImage: false
 tag:
 - R Package
@@ -18,8 +18,6 @@ output:
     highlight: tango
     #code_folding: hide
 ---
-
-
 
 
 ### 模拟随机过程
@@ -83,7 +81,7 @@ plotSim <- function(draft){
 plotSim(0.001)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-2](/assets/images/unnamed-chunk-2-1.png)
+![plot of chunk unnamed-chunk-2](/assets/images/2018-01-15/unnamed-chunk-2-1.png)
 
 ### 多数据建模
 检验车辆数据集中变量单位加仑的英里数与重量之间的线性关系是否会在不同的引擎汽缸中有显出差异？
@@ -143,7 +141,7 @@ mtcars %>%
 ## Joining, by = "a"
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-4](/assets/images/unnamed-chunk-4-1.png)
+![plot of chunk unnamed-chunk-4](/assets/images/2018-01-15/unnamed-chunk-4-1.png)
 
 ### 多模型预测
 对单一数据集进行多个模型训练预测：

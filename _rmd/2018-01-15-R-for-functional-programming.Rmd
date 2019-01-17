@@ -1,22 +1,13 @@
 ---
-title: "R for functional programming"
+title: R for functional programming
 layout: post
 date: 2018-01-15 13:07
-image: /assets/images/markdown.jpg
-headerImage: false
-tag:
-- R Package
-category: blog
-author: WeifanD
-output:
-  html_document:
-    number_sections: true
-    toc: true
-    fig_width: 7
-    fig_height: 4.5
-    theme: cosmo
-    highlight: tango
-    #code_folding: hide
+author: Weifan Dai
+published: false
+tags: 
+- R 
+- Jekyll 
+- RStudio
 ---
 
 ```{r warning=FALSE,echo=FALSE,message=FALSE,comment=NA}
@@ -26,6 +17,7 @@ library(purrr) # Functional programming
 library(tidyr)
 ```
 
+‘函数式编程’，一开始听到这个词，坦白说大脑是处于空白状态，只是印象中在课堂选修课中有这么一门课，叫‘Functional programming’。第二次遇上这个词，是因为Hadley Wickham，了解R语言的人应该或多或少都听说过这位大神，他对R语言简洁性贡献了很多自己的努力，我基本把他所有代表性的packages都玩转了，直见我对他编程理念的信服。purrr作为近期新推出的package，集中体现了所谓的函数式编程，即把运算过程尽量写成一系列嵌套的函数调用，也就是函数不再是个独立的个体，而是被嵌入进了分层式编程中，使得函数的调用不会影响整体代码的风格。接下来会以一些例子来演示这一特点：
 
 ### 模拟随机过程
 模拟一个简单的随机过程：从$N~(0,1)$标准正态分布中产生100个随机值，反复5次得到一个list，再以每个list的初始值作为起点后一个的值作为过程步的增量走到下一步，直到走到尽头。
