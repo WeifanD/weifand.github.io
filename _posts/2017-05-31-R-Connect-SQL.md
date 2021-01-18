@@ -134,10 +134,6 @@ US = filter(demography, occr_country=='US') %>%
 explain(US)
 ```
 
-<figure>
-    <img src='http://i1.piimg.com/1949/622af48a7d1de409.png'>
-</figure>
-
 利用相似方法，连接到其他数据集.有意思的是dplyr包会延迟这些查询操作，只在我们需要数据的时候才把相应的对象加载到R中。即当我们使用诸如collect()， head()， count()等函数时，先前的查询指令才被执行。（译者注：也就是遵循惰性求值原则）
 
 当我们对数据库中提取的数据进行tail()操作，程序会报错。因为只有当整个查询指令被执行完毕，我们才能找到数据表中的最后几行观测。

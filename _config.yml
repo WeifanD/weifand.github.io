@@ -1,5 +1,5 @@
 # main text of home
-name: Weifan Dai
+name: Weifan & Yanrong
 bio: Follow your heart but take your brain with you
 
 # twitter summary info
@@ -8,12 +8,12 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/1884581754.jpg
+picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: false
-resume-external: true
+resume-external: false
 resume-url: Resume.md
 
 url: https://weifand.github.io
@@ -42,7 +42,7 @@ disqus:
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: weifand
+# github: weifand
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
@@ -53,18 +53,18 @@ github: weifand
 email: wodaiweifan@163.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    WeifanD:
+        name: Weifan Dai
+        bio: Follow your heart but take your brain with you
         external-image: false
-        picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
+        picture: assets/images/weifan.jpg
+        # twitter: johndoe
+    YanrongC:
+        name: Yanrong Cai
+        bio: Memory and progress plus beyond.
         external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        picture: assets/images/yanrong.jpg
+        # twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -72,11 +72,11 @@ authors:
 width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
+paginate: 5
+paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
 about: true
@@ -89,13 +89,13 @@ read-time: true
 show-tags: true
 
 # related posts inside a post?
-related: false
+related: true
 
 # Display links for next and previous posts for the specified categories
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: false
+show-author: true
 
 # do you want some animations?
 animation: true
