@@ -1,13 +1,13 @@
 # main text of home
 name: Weifan & Yanrong
-bio: Follow your heart but take your brain with you
+bio: 唯有美食与爱不可辜负。 Eat, love, live.
 
 # twitter summary info
 description: A blog about technology and stuff related
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
+external-image: true
 picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
@@ -56,13 +56,13 @@ authors:
     WeifanD:
         name: Weifan Dai
         bio: Follow your heart but take your brain with you
-        external-image: false
+        external-image: true
         picture: assets/images/weifan.jpg
         # twitter: johndoe
     YanrongC:
         name: Yanrong Cai
         bio: Memory and progress plus beyond.
-        external-image: false
+        external-image: true
         picture: assets/images/yanrong.jpg
         # twitter: jamesfoster
 
@@ -72,7 +72,7 @@ authors:
 width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
-paginate: 5
+paginate: 10
 paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below

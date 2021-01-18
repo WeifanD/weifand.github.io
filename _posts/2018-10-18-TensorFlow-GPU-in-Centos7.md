@@ -76,9 +76,10 @@ sudo chmod a+r /usr/local/cuda/include/cudnn.h
 sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
 ```    
 
-### 配置环境变量 ~/.bashrc: 
+### 配置环境变量: 
 
-``` bash
+```bash
+# ~/.bashrc
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 export CUDA_HOME=/usr/local/cuda
