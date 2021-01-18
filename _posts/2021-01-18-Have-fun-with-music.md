@@ -14,8 +14,4 @@ author: YanrongC
 
 **Suger - Maroon 5**
 
-{% highlight html %}
-<iframe width="560" height="310" src="https://youtu.be/09R8_2nJtjg" frameborder="0" allowfullscreen></iframe>
-{% endhighlight %}
-
-<iframe width="560" height="310" src="https://youtu.be/09R8_2nJtjg" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/09R8_2nJtjg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
