@@ -11,22 +11,20 @@ tag:
 category: blog
 author: WeifanD
 ---
+
 ## 系统配置
 
 系统版本： Centos7.6
-
 语言: Python3.5(anaconda3 4.2)
-
 框架: Tensorflow
 
-   
 ### 安装依赖 
 
 ``` bash
 sudo yum install openjdk-8-jdk git python-dev python3-dev python-numpy python3-numpy build-essential python-pip python3-pip python-virtualenv swig python-wheel libcurl3-dev curl   
 ```
 
-### 安装 NVIDIA 驱动 和 CUDA
+### 安装 NVIDIA 驱动和CUDA
 
 ``` bash
 curl -O http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.0.176-1_amd64.deb
@@ -66,7 +64,7 @@ nvidia-smi
 
 ```    
 
-### Install cudnn   
+### 安装cudnn   
 
 ``` bash
 tar -zxvf cudnn-9.0-linux-x64-v7.1.solitairetheme8
@@ -84,7 +82,8 @@ export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 export CUDA_HOME=/usr/local/cuda
 export PATH="$PATH:/usr/local/cuda/bin"
-# 刷新
+
+# refresh
 source ~/.bashrc
 ```   
 

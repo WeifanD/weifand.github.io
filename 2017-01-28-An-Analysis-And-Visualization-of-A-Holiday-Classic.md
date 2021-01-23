@@ -16,6 +16,8 @@ author: WeifanD
 
 首先当然就是获得数据文本，就在百度上搜了一部我最喜欢的医学美剧，'Gary's Anatomy'!
 
+![center](assets/images/2017-01-28/001.jpg)
+ 
 ```r
 raw <- readLines("gary's anatomy.txt")
 df <- data_frame(raw = raw) %>% 
@@ -26,14 +28,15 @@ df <- data_frame(raw = raw) %>%
          scene = cumsum(is_scene))
 head(df)
 ```
-好了现在我们算是对raw data进行了initial manipulation,一个tidy data的过程。当然这里算是很简单了，正常数据挖掘中data cleaning通常要花费一名data analyst60%的时间，这我深有体会啊。叹一声先。。
+
+![center](assets/images/2017-01-28/002.jpg)
+
+现在算是对raw data进行了initial manipulation,一个tidy data的过程。当然这里算是很简单了，正常数据挖掘中data cleaning通常要花费一名 data analyst 60%的时间。
 
 我在网上找到的这个剧本是格雷第二季，包括了本集名字／演员的台词以及场景转换，当然还有我觉得最有意思的旁白。
 先看看究竟第二季有哪些主题，都是谁写的，剧本中用到的高频单词是什么，以及台词频率最高的是不是就是我们印象中的那些主角？
 
 我们来看一下，第二季总共27集，有没有你印象最深的一集呢？我想第一集的writer可能没想到多年之后，有一个胖胖的女生唱了一首足够震撼动人心魄的歌曲，她的第一句音起就是“When the rain is blowing in your eyes and the whole world is on your case”～
-
-![center](http://p1.bqimg.com/567571/1efbc299a455094c.png)
 
 ```r
 library(tidytext)
@@ -83,5 +86,5 @@ lines <- character_df %>%
 
 ![center](http://p1.bpimg.com/567571/8ab454ce2effc2ca.png)
 
-我们可以看到每一集出现人物的关系线，Alex居然第九集没有出场，Mark第18集才出场，看来我得去回顾一下第二季了，先到这里等我review剧之后再把埋一下。
+我们可以看到每一集出现人物的关系线，Alex居然第九集没有出场，Mark第18集才出场，看来我得去回顾一下第二季了，先到这里等我review剧之后再来理一下。
 

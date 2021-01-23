@@ -11,13 +11,13 @@ category: blog
 author: WeifanD
 ---
 
-#### Problem
+## Problem
 对于商家来说提前识别回头客是一件集中资源提高新品销售量的头等大事，各大商家为了吸引顾客的二次购买都会实行各种像是促销、优惠券、折扣之类的策略。按理说越了解客户，越知道客户的喜好，越能精准推销，就越能实现券的高使用率，但是在初期预测一个客户的忠诚度其实是一件很困难的事。
 
 本节就是在给定客户历史交易记录的信息预测他是否会再次光顾使用之前提供的券，在机器学习领域里这就是一个很典型的是非二元分类问题。
 
-#### Data
-由于原始数据量很大，有500G， 包含上百万条客户的历史交易记录数据transaction，历史商店回顾情况history以及优惠券的各项基本信息offer，为了更方便进行数据处理，需要将研究人数进行减缩。
+## Data
+由于原始数据量很大，500G， 包含上百万条客户的历史交易记录数据transaction，历史商店回顾情况history以及优惠券的各项基本信息offer，为了更方便进行数据处理，需要将研究人数进行减缩。
 
 **Transaction** 
 数据结构很简单，就是描述了某个客户某天某次在某家公司的某个商店的购买量以及购买金额。
@@ -29,7 +29,7 @@ author: WeifanD
 **History** 
 数据集包含客户在某个商圈的某家商店购买过几次，是不是一个回头客以及他收到商家的优惠券的时间
 
-#### Preprocessing
+## Preprocessing
 在给定的特征基础上，我们extract出了几个会影响the chance of repeat purchace的人工变量：
 
 **Company**
@@ -51,7 +51,7 @@ author: WeifanD
 
 最终特征选取如下：
 
-```
+```bash
 offer_quantity:1 
 has_bought_company_a:243.63 
 has_bought_brand_180:7.0
@@ -88,7 +88,7 @@ has_bought_company_90:17.0
 has_bought_brand_a_90:20.64 
 has_bought_company:36.0
 ```
-#### Model
+# Model
 Vowpal_wabbit 是在单机上速度非常快的机器学习库。
 
 本质原因是vowpal_wabbit采用的是在线学习，也即优化方法采用的是随机梯度下降的方法。相比较batch gradient,online-learnging 的速度快，但是效果可能没有batch-learning好。
@@ -97,7 +97,7 @@ Vowpal_wabbit 是在单机上速度非常快的机器学习库。
 
 这里使用的Python版的VW，调参情况如下：
 
-```
+```python
 -c -k --passes 40 says to use a cache, kill any previous cache and run 40 passes
 
 -l 0.85 sets the learning rate to 0.85

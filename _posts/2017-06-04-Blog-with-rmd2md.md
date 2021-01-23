@@ -21,12 +21,12 @@ author: WeifanD
  
 用过Rstudio的RUsers都知道，左上角的R Notebook已经可以完成代码与结果一体化的需求，但是要将运行完成的.Rmd文件转化为.md格式，并自动显示图片或结果，就需要用到额外的函数。
  
-以下是我根据其他作者编写进行修改的rmd2md.R函数，运行函数前在博客官网目录下创建三个文件夹，包括：_posts, _rmd, pictures。
+以下是我根据其他作者编写进行修改的rmd2md.R函数，运行函数前在博客官网目录下创建三个文件夹，包括：`_posts, _rmd, pictures`。
  
  
 #### 写函数前，确定必要的文件路径
  
-```
+```r
 rmd2md <- function( path_site = getwd(), # 当前博客地址
                     dir_rmd = "_rmd", # _rmd文件夹地址
                     dir_md = "_posts", # _posts文件夹地址                              
@@ -39,14 +39,14 @@ rmd2md <- function( path_site = getwd(), # 当前博客地址
  
 #### 加载包
  
-```
+```r
   # Loading the necessary packages
   require(knitr, quietly=TRUE, warn.conflicts=FALSE)
 ```
  
 #### 找到需要转化的.Rmd文件
  
-```
+```r
   #andy change to avoid path problems when running without sh on windows 
   # list out each rmd path in _rmd file using 'list.files'
   files <- list.files(path=file.path(path_site,dir_rmd), pattern=in_ext, ignore.case=TRUE, recursive=recursive)
@@ -61,7 +61,7 @@ rmd2md <- function( path_site = getwd(), # 当前博客地址
   - 判断此文件是否已转换: 定位‘---‘，确定两个的位置，第一条在首行，第二条在两行之后，若找不到弹出warning
   - 判断Status的位置：确定在‘---’中间后取得状态内容，调整大小写，判断是否处理过，若处理过弹出warning；若没有则转化成处理了，并进行knit转化（使用try-else; Python: try-except）
   
-```
+```r
     # determine the file and publish status
     content <- readLines(file.path(path_site,dir_rmd,f))
     frontMatter <- which(substr(content, 1, 3) == '---')

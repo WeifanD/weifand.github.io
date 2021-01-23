@@ -24,23 +24,23 @@ author: WeifanD
 
 
 
-## WD的普鲁斯特问卷
+## 我的普鲁斯特问卷
 
 1.What is your idea of perfect happiness?
 
-自由 理想 爱与被爱
+自由，理想，爱与被爱。
 
 2.What is your greatest fear?
 
-失去与背叛 无所事事
+无所事事。
 
 3.What is the trait you most deplore in yourself?
 
-顾虑颇多 优柔寡断
+优柔寡断。
 
 4.What is the trait you most deplore in others?
 
-桎梏于浮华的事物而止步不前
+桎梏于浮华的事物而止步不前。
 
 5.Which living person do you most admire?
 
@@ -48,11 +48,11 @@ Hadley Wickham
 
 6.What is your greatest extravagance?
 
-Dream.It's hard, not because of holding it but have one.
+Dream. It's hard, not because of holding it but have one.
 
 7.What is your current state of mind?
 
-Peace.虽有波澜，但保持平和。
+Peace. 虽有波澜，但保持平和。
 
 8.What do you consider the most overrated virtue?
 
@@ -84,7 +84,7 @@ Peace.虽有波澜，但保持平和。
 
 15.What or who is the greatest love of your life?
 
-家人与爱人。
+家人。
 
 16.When and where were you happiest?
 
@@ -104,11 +104,11 @@ Peace.虽有波澜，但保持平和。
 
 20.If you were to die and come back as a person or a thing, what would it be?
 
-I still wanna be a person.
+人。
 
 21.Where would you most like to live?
 
-被绿色环绕，能看到行人匆匆的地方。
+绿色环绕，能看到行人匆匆的地方。
 
 22.What is your most treasured possession?
 
@@ -120,7 +120,7 @@ Trust.
 
 24.What is your favorite occupation?
 
-有创造力，能接触美好事物，自感学有所成之职。
+有创造力，能接触美好事物，自感学有所成。
 
 25.What is your most marked characteristic?
 
@@ -156,11 +156,11 @@ Julia.
 
 33.What is your greatest regret?
 
-面对他人的友情可以在勇敢一些些。
+面对友情可以勇敢。
 
 34.How would you like to die?
 
-平和不留遗憾
+无痛苦。
 
 35.What is your motto?
 
