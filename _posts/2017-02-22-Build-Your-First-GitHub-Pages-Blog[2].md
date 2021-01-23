@@ -137,7 +137,7 @@ yourname 是指你的 GitHub Name，此处命名形式 yourname 必须与你的�
 * feed.xml 博客的 RSS 订阅；
 * README.md 项目说明文档。用于 Github 个人项目主页的说明（描述）。
 
-除此之外，还有诸如 fonts 文件夹，存放博客用的字体文件，或有主题是将 css/js/fonts/images 等文件夹合并到 _assets 为名的主文件夹中。404.html/feed.xml/CNAME 文件并非必须，但一般架构完整的博客都有。
+除此之外，还有诸如 fonts 文件夹，存放博客用的字体文件，或有主题是将 css/js/fonts/images 等文件夹合并到 `_assets`为名的主文件夹中。404.html/feed.xml/CNAME 文件并非必须，但一般架构完整的博客都有。
 
 ### Custom Configuration
 
@@ -152,7 +152,7 @@ yourname 是指你的 GitHub Name，此处命名形式 yourname 必须与你的�
 
 
 * [TextMate](https://macromates.com/) / [Sublime Text](http://www.sublimetext.com/) 用于打开 yml/THML 等文件并进行修改。Windows 用户就只有后者可选了...
-* [damotou.com](http://www.damotou.com/index.php)  在线制作（转换）用于 favicon（还不知道这是什么？瞧一下自己 Chrome 浏览器书签页左侧的小图标） 的 icon 图片，选择 32*32 像素的图片下载；
+* [damotou.com](http://www.damotou.com/index.php)  在线制作（转换）用于 favicon（还不知道这是什么？瞧一下自己 Chrome 浏览器书签页左侧的小图标） 的 icon 图片，选择 `32*32` 像素的图片下载；
 * CNAME 文件，如果有独立域名请修改该文件；如果没有，则删掉该文件；如果没有但想要，请看附录。
 
 
