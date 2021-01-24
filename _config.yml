@@ -1,6 +1,6 @@
 # main text of home
-name: Weifan & Yanrong
-bio: 唯有爱与美食不可辜负。 Eat, love, live.
+name: Weifan Dai
+bio: Data Scientist at Decathlon, works in R and Python.
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -55,7 +55,7 @@ email: wodaiweifan@163.com
 authors:
     WeifanD:
         name: Weifan Dai
-        bio: Follow your heart but take your brain with you
+        bio: Eat, love, live.
         external-image: false
         picture: assets/images/weifan.jpg
         # twitter: johndoe
