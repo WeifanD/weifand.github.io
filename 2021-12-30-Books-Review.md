@@ -1,5 +1,5 @@
 ---
-title: "四季光影 2015"
+title: "文字之美 2020"
 layout: post
 date: 2015-12-24 22:48
 image: /assets/images/markdown.jpg
@@ -14,38 +14,9 @@ author: WeifanD
 
 ## 回顾
 
-今年是最近三年阅读量最少的一年，也是看片量锐减的又一年。这是印象，也是想起时自然的表达。
-
-可当我拾掇过往一年影片清单时，还是多少感叹，精彩的影片与剧集说少也不少，乃至于说，剧集原来也看了十三五部呢...记忆依旧如此不可靠。
-
-索性未曾辜负这一番时光吧。是为此篇年度观影小结。
-
-先借豆瓣电影的数据来铺陈一下。
-
-106 部电影。相比去年腰斩...大有今年股市走势般颠沛流离无所依凭之感。
-
-![](http://dreamofbook.qiniudn.com/DoubanFilm2015Number.jpg)
-
-![](http://dreamofbook.qiniudn.com/DoubanFilm2015MonthReview.jpg)
-
-倾向依旧如往年，地区来看，美国为主，日韩紧随其后；风格来说，剧情片以及科幻片还是我最为关注的。
-
-![](http://dreamofbook.qiniudn.com/DoubanFilm2015Country.jpg)
-
-![](http://dreamofbook.qiniudn.com/DoubanFilm2015Type.jpg)
-
-比较私人的两个小片段。
-
-![](http://dreamofbook.qiniudn.com/DoubanFilm2015Night.jpg)
-
-![](http://dreamofbook.qiniudn.com/DoubanFilm2015Day.jpg)
-
-然后再来一个图墙~
-
-![](http://dreamofbook.qiniudn.com/DoubanFilm2015List.jpg)
 
 
-# 年度最佳影片榜单
+# 年度最佳图书榜单
 
 接下来就是年度推荐榜单啦。
 
