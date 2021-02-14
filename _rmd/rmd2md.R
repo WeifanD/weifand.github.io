@@ -17,7 +17,7 @@
 rmd2md <- function( path_site = getwd(),
                     dir_rmd = "_rmd",
                     dir_md = "_posts",                              
-                    dir_images = "assets/images/",
+                    dir_images = "assets/images/2017-01-28/",
                     out_ext='.md', 
                     in_ext='.Rmd', 
                     recursive=FALSE) {

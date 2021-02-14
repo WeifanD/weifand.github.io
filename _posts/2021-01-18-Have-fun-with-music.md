@@ -1,5 +1,5 @@
 ---
-title: "Have fun with music"
+title: "Have fun with music - Sugar"
 layout: post
 date: 2021-01-18 16:00
 image: /assets/images/markdown.jpg
