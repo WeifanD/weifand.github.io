@@ -249,7 +249,7 @@ ggplot(scenes, aes(scene, character)) +
 
 我们可以看到每一集出现人物的关系线，Alex居然第九集没有出场，Mark第18集才出场，看来我得去回顾一下第二季了，先到这里等我review剧之后再来理一下。
 
-*Note: Weifan Dai is the original author. Please give credit to the original author when you use it elsewhere.*
+*转载请注明出处 Weifan Dai is the original author. Please give credit to the original author when you use it elsewhere.*
 
 
 
