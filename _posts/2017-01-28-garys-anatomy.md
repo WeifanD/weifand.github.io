@@ -154,10 +154,35 @@ p1+p2
 
 通过分别分析所有角色的台词数量以及台词中提到的不同角色的频次，综合起来可以发现Meredith当之无愧是我们的头号主角，主动和被动出现的频率的确是最高的。
 
+**Meredith Grey**
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="/assets/images/meredith.jfif" alt="Alt Text">
+    </div>
+    <div class="toright">
+        <img class="image" src="/assets/images/2017-01-28/wordcloud-1.PNG" alt="Alt Text">
+    </div>
+</div>
 
-![center](/assets/images/2017-01-28/wordcloud-1.PNG)
-![center](/assets/images/2017-01-28/wordcloud-2.PNG)
-![center](/assets/images/2017-01-28/wordcloud-3.PNG)
+**Cristina Yang**
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="/assets/images/christina.jfif" alt="Alt Text">
+    </div>
+    <div class="toright">
+        <img class="image" src="/assets/images/2017-01-28/wordcloud-2.PNG" alt="Alt Text">
+    </div>
+</div>
+
+**George O'Malley**
+<div class="side-by-side">
+    <div class="toleft">
+        <img class="image" src="/assets/images/george.jfif" alt="Alt Text">
+    </div>
+    <div class="toright">
+        <img class="image" src="/assets/images/2017-01-28/wordcloud-3.PNG" alt="Alt Text">
+    </div>
+</div>
 
 再来看看台词的词频~ Meredith的台词里George的出现率反而高于了她的男友Dereck。在Cristina这虽然没超过指导住院医生兼男友的Burke，但也被提到不少，看来作为女孩们的蓝颜知己， George在生活中还是很重要的存在，毕竟大家都是室友和同事。另外，并不意外在这几个实习生的高词频名单里看到了个矮但是霸气，“严厉无情”，被以“纳粹”著称的Miranda Bailey，她以实习生们的指导住院医生身份出场，在Mer这一批实习生的成长发展中，奉献了许多关怀与帮助，是实习生们敬爱的人。而Cristina是业界难遇的奇才，除了手术，对其他基本漠不关心。作为实习医生，紧跟指导住院医生Baileyd的身后，一有什么疑难杂症，百年一遇的疾病手术，第一个冲锋上前，她的个性和亚洲面孔给我留下了极深刻的印象。
 
