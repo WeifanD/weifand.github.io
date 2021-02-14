@@ -16,7 +16,7 @@ author: WeifanD
 
 数据挖掘中文本挖掘一直觉得是挺有意思的主题，受到David Robinson对于圣诞爱情电影**Love Actually**分析的启发，想要挖掘一下今年最喜欢的医学美剧，**Gary's Anatomy**!《实习医生格蕾》是一部以医学为主题，是美国广播公司（ABC）出品的广播电视剧。由珊达莱姆斯编剧，珊达·莱梅斯， Peter Horton， Rob Corn等执导，艾伦·旁派领衔主演。本剧描写了一群年轻的实习医生之间的情感纠葛和他们在事业上的前进与磨练，在高强度训练医生的同时又掺杂了大量的喜剧和爱情元素，剧情幽默中略带纠结。全剧至2016年5月播完第十二季。
 
-![center](assets/images/2017-01-28/001.jpg)
+![center](/assets/images/2017-01-28/001.jpg)
  
 ## 数据
 
@@ -29,13 +29,11 @@ author: WeifanD
 ### 数据清洗
 元数据中通过冒号分隔开了来源和内容，来源包含了内容，也就是台词所对应的角色名以及集数和集名。为了简洁和数据标准化txt文档所表达的信息，需要通过整合去除脏数据以及增加主列和辅助列来标注清晰角色与台词、编剧与剧本、导演与剧集之间的关系。
 
-![center](assets/images/2017-01-28/002.PNG)
+![center](/assets/images/2017-01-28/002.PNG)
 
 
 {% highlight r %}
-raw <- readLines("gary's anatomy.txt")
-
-text <- data_frame(raw = raw) %>% 
+data_frame(raw = raw) %>% 
   filter(raw != "", !is.na(raw)) %>% 
   separate(raw, c("form","content"),sep = ": ",fill = "left") %>% 
   mutate(form = ifelse(is.na(form), "others", form)) %>% 
@@ -95,7 +93,7 @@ text %>%
 
 总共27集的连续剧，Shonda Rhimes就写了四分之一，常驻编剧非她莫属了。Rhimes是一位美國編劇，導演和電視製作人。她最知名的是製作和編寫了醫療劇《實習醫生》和《私人診所》。2007年5月，她入選《時代》的百大最有影響力的人物之一。她還是醫療劇《隱世靈醫》的執行製作人並製作了2012年4月5日播出的ABC電視劇《醜聞》。
 
-![](assets/images/2017-01-28/writer.jfif)
+![](/assets/images/2017-01-28/writer.jfif)
 
 {% highlight r %}
 text %>%
@@ -104,7 +102,7 @@ text %>%
   rename(episode_no = form, episode_name = content)
 {% endhighlight %}
 
-![](assets/images/2017-01-28/005.PNG)
+![](/assets/images/2017-01-28/005.PNG)
 
 第二季有没有你印象最深的一集呢？看到第一集的名字，我想第一集的编剧可能没想到多年之后，有一个胖胖的女生唱了一首传唱度极高的歌，她的第一句音起就是“When the rain is blowing in your eyes and the whole world is on your face”～
 
@@ -120,7 +118,6 @@ character_in_form <- dialogue %>%
   mutate(class='form') %>% 
   rename(n=line_count)
 
-library(tidytext)
 reg <- "([^A-Za-z\\d#@']|'(?![A-Za-z\\d#@]))"
 dialogue_words <- dialogue %>%
   unnest_tokens(word, line, token = "regex", pattern = reg) %>% 
@@ -158,15 +155,15 @@ p1+p2
 通过分别分析所有角色的台词数量以及台词中提到的不同角色的频次，综合起来可以发现Meredith当之无愧是我们的头号主角，主动和被动出现的频率的确是最高的。
 
 
-![center](assets/images/2017-01-28/wordcloud-1.PNG)
-![center](assets/images/2017-01-28/wordcloud-2.PNG)
-![center](assets/images/2017-01-28/wordcloud-3.PNG)
+![center](/assets/images/2017-01-28/wordcloud-1.PNG)
+![center](/assets/images/2017-01-28/wordcloud-2.PNG)
+![center](/assets/images/2017-01-28/wordcloud-3.PNG)
 
 再来看看台词的词频~ Meredith的台词里George的出现率反而高于了她的男友Dereck。在Cristina这虽然没超过指导住院医生兼男友的Burke，但也被提到不少，看来作为女孩们的蓝颜知己， George在生活中还是很重要的存在，毕竟大家都是室友和同事。另外，并不意外在这几个实习生的高词频名单里看到了个矮但是霸气，“严厉无情”，被以“纳粹”著称的Miranda Bailey，她以实习生们的指导住院医生身份出场，在Mer这一批实习生的成长发展中，奉献了许多关怀与帮助，是实习生们敬爱的人。而Cristina是业界难遇的奇才，除了手术，对其他基本漠不关心。作为实习医生，紧跟指导住院医生Baileyd的身后，一有什么疑难杂症，百年一遇的疾病手术，第一个冲锋上前，她的个性和亚洲面孔给我留下了极深刻的印象。
 
 除此之外，作为一部典型的美剧，日常常用词还是占多数的，像什么god／ah／guy之类的口头语（当然这些也可以按需过滤掉），chief／Dr的title，当然也有医学题材不可避免的surgery，接下来看看这部剧积极的情绪词频。
 
-![center](assets/images/2017-01-28/wordcloud-4.PNG)
+![center](/assets/images/2017-01-28/wordcloud-4.PNG)
 
 跟想象中差不多，lucky／love／happy占首位
 
