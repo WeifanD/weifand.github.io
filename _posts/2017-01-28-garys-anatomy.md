@@ -61,14 +61,14 @@ head(dialogue)
 
 {% highlight text %}
 # A tibble: 6 x 3
-  character line                                                      scene
-  <chr>     <chr>                                                     <int>
-1 mvo       "To be a good surgeon, you have to think like a surgeon.~     1
-2 joe       You look familiar. You been here before?                      1
-3 meredith  "Once. That worked out really well. "                         1
-4 joe       I know that look. It'll be one of two things. Either you~     1
-5 meredith  "Both. "                                                      1
-6 mvo       "But sometimes, you're faced with a cut that won't heal.~     1
+  character line                                                      
+  <chr>     <chr>                                                     
+1 mvo       "To be a good surgeon, you have to think like a surgeon.~
+2 joe       You look familiar. You been here before?                 
+3 meredith  "Once. That worked out really well. "                    
+4 joe       I know that look. It'll be one of two things. Either you~
+5 meredith  "Both. "                                                 
+6 mvo       "But sometimes, you're faced with a cut that won't heal.~
 {% endhighlight %}
 
 通过正则、大小写归一、词干提取、词形还原、去除不恰当字符以及表示动作的行为等清洗方式，将不合理的1349个角色清洗到167个（其中包含了所有病人和出现过的人物）。其中`MVO`表示旁白，添加表明第几集的辅助列为了之后分析人物出场关系做好准备。
@@ -157,7 +157,7 @@ p1+p2
 **Meredith Grey**
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="/assets/images/meredith.jfif" alt="Alt Text">
+        <img class="image" src="/assets/images/2017-01-28/meredith.jfif" alt="Alt Text">
     </div>
     <div class="toright">
         <img class="image" src="/assets/images/2017-01-28/wordcloud-1.PNG" alt="Alt Text">
@@ -167,7 +167,7 @@ p1+p2
 **Cristina Yang**
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="/assets/images/christina.jfif" alt="Alt Text">
+        <img class="image" src="/assets/images/2017-01-28/christina.jfif" alt="Alt Text">
     </div>
     <div class="toright">
         <img class="image" src="/assets/images/2017-01-28/wordcloud-2.PNG" alt="Alt Text">
@@ -177,7 +177,7 @@ p1+p2
 **George O'Malley**
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="/assets/images/george.jfif" alt="Alt Text">
+        <img class="image" src="/assets/images/2017-01-28/george.jfif" alt="Alt Text">
     </div>
     <div class="toright">
         <img class="image" src="/assets/images/2017-01-28/wordcloud-3.PNG" alt="Alt Text">
