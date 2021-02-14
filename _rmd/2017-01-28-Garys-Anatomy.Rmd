@@ -153,27 +153,30 @@ p1+p2
 通过分别分析所有角色的台词数量以及台词中提到的不同角色的频次，综合起来可以发现Meredith当之无愧是我们的头号主角，主动和被动出现的频率的确是最高的。
 
 ```{r echo=FALSE}
-# p1 <- dialogue_words %>%
-#   filter(character=='meredith') %>%
-#   count(word, sort = T) %>%
-#   as.data.frame(.) %>%
-#   wordcloud2(size = 1.5, shape = 'star')
-# 
-# p2 <- dialogue_words %>%
-#   filter(character=='cristina') %>%
-#   count(word, sort = T) %>%
-#   as.data.frame(.) %>%
-#   wordcloud2(size = 1.5, shape = 'star')
-# 
-# p3 <- dialogue_words %>%
-#   filter(character=='george') %>%
-#   count(word, sort = T) %>%
-#   as.data.frame(.) %>%
-#   wordcloud2(size = 1.5, shape = 'star')
-# 
-# p1
-# p2
-# p3
+p1 <- dialogue_words %>%
+  filter(character=='meredith') %>%
+  count(word, sort = T) %>%
+  filter(n>5) %>% 
+  as.data.frame(.) %>%
+  wordcloud2(shape = 'star')
+
+p2 <- dialogue_words %>%
+  filter(character=='cristina') %>%
+  count(word, sort = T) %>%
+  filter(n>5) %>% 
+  as.data.frame(.) %>%
+  wordcloud2(shape = 'star')
+
+p3 <- dialogue_words %>%
+  filter(character=='george') %>%
+  count(word, sort = T) %>%
+  filter(n>5) %>% 
+  as.data.frame(.) %>%
+  wordcloud2(shape = 'star')
+
+p1
+p2
+p3
 # 
 # senti_stat <- dialogue_words %>%
 #   inner_join(sentiments)
